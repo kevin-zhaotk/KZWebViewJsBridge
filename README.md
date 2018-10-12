@@ -39,3 +39,8 @@ Inspired by the known opensource project 'WebViewJavascriptBridge', I decided to
 
 
 this is the JSBridge in iOS platform, if you want the same function on android, please visit 
+
+https://github.com/kevin-zhaotk/KZJSbridge
+
+An android one of mine. So your H5 code will exactly one.
+
