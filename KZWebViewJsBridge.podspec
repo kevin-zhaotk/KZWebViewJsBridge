@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
 
-  s.source       = { :git => "https://github.com/kevin-zhaotk/KZWebViewJsBridge.git" }
+  s.source       = { :git => "https://github.com/kevin-zhaotk/KZWebViewJsBridge.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
