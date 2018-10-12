@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1B278D21709D2D002AE8D1 /* KZWebViewJsBridge.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0A1B278C21709D2D002AE8D1 /* KZWebViewJsBridge.podspec */; };
 		0A51CFD921708CB8007C66B3 /* KZWebViewJSBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A51CFD021708CB8007C66B3 /* KZWebViewJSBridge_JS.h */; };
 		0A51CFDA21708CB8007C66B3 /* KZWebViewJSBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A51CFD121708CB8007C66B3 /* KZWebViewJSBridgeBase.m */; };
 		0A51CFDB21708CB8007C66B3 /* KZWebViewJSBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A51CFD221708CB8007C66B3 /* KZWebViewJSBridgeBase.h */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A1B278C21709D2D002AE8D1 /* KZWebViewJsBridge.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KZWebViewJsBridge.podspec; sourceTree = SOURCE_ROOT; };
 		0A51CFC521708C5D007C66B3 /* KZWebViewJsBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KZWebViewJsBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A51CFC921708C5D007C66B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A51CFD021708CB8007C66B3 /* KZWebViewJSBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KZWebViewJSBridge_JS.h; path = JSBridge/KZWebViewJSBridge_JS.h; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		0A51CFBB21708C5D007C66B3 = {
 			isa = PBXGroup;
 			children = (
+				0A1B278C21709D2D002AE8D1 /* KZWebViewJsBridge.podspec */,
 				0A51CFC721708C5D007C66B3 /* KZWebViewJsBridge */,
 				0A51CFC621708C5D007C66B3 /* Products */,
 			);
@@ -148,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1B278D21709D2D002AE8D1 /* KZWebViewJsBridge.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
