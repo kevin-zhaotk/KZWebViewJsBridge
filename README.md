@@ -34,7 +34,18 @@ modify your WKWebView initillization
 
 modify your H5 code. Initillize the jsbridge by plugin the following code snippet:
 
-<script language="javascript"> ..... function setUpJSBridge() { if (window.WVJavaScriptBridge) {return;} var messageFramge = document.createElement("iframe"); messageFramge.style.display = "none"; messageFramge.src = "kzjsbridge://__kz_jsbridge_load"; document.documentElement.appendChild(messageFramge); setTimeout(function(){document.removeChild(messageFramge)}, 0); } setUpJSBridge() ..... </script>
+    <script language="javascript"> 
+        ..... 
+        function setUpJSBridge() { 
+            if (window.WVJavaScriptBridge) {return;} 
+            var messageFramge = document.createElement("iframe"); 
+            messageFramge.style.display = "none"; 
+            messageFramge.src = "kzjsbridge://__kz_jsbridge_load"; document.documentElement.appendChild(messageFramge);                 setTimeout(function(){document.removeChild(messageFramge)}, 0); 
+        } 
+        setUpJSBridge() 
+        ..... 
+        </script>
+        
 Inspired by the known opensource project 'WebViewJavascriptBridge', I decided to build this jsbridge. I Copied all signicant theory from WebViewJavascriptBridge except method registration. I think the method registration strategy is unefficient, so i replaced this part by refection.
 
 
