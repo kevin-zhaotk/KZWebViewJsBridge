@@ -8,7 +8,7 @@ How to migrate to your project?
 
 add dependency in your Podfile
 
-pod 'KZWebViewJsBridge','~> 1.0.0'
+        pod 'KZWebViewJsBridge','~> 1.0.0'
 
 modify your WKWebView initillization
 
