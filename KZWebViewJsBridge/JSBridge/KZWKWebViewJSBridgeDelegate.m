@@ -8,6 +8,7 @@
 
 #import "KZWKWebViewJSBridgeDelegate.h"
 #import "KZJSBInvokeAction.h"
+#import "KZJSBUserContentController.h"
 
 @interface KZWKWebViewJSBridgeDelegate()
 
@@ -29,6 +30,13 @@
     _webview = webView;
     self.handlerDelegate = handler;
     _webview.navigationDelegate = self;
+    
+    WKWebViewConfiguration* configution = _webview.configuration;
+    if (configution == nil) {
+        return;
+    }
+    KZJSBUserContentController* userController = configution.userContentController;
+    [userController setWebview:_webview];
 }
 
 - (void) setJSBridgeNavigateDelegate:(id<WKNavigationDelegate>) navDelegate {

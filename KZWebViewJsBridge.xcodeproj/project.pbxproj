@@ -8,30 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		0A1B278D21709D2D002AE8D1 /* KZWebViewJsBridge.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0A1B278C21709D2D002AE8D1 /* KZWebViewJsBridge.podspec */; };
-		0A51CFD921708CB8007C66B3 /* KZWebViewJSBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A51CFD021708CB8007C66B3 /* KZWebViewJSBridge_JS.h */; };
-		0A51CFDA21708CB8007C66B3 /* KZWebViewJSBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A51CFD121708CB8007C66B3 /* KZWebViewJSBridgeBase.m */; };
-		0A51CFDB21708CB8007C66B3 /* KZWebViewJSBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A51CFD221708CB8007C66B3 /* KZWebViewJSBridgeBase.h */; };
-		0A51CFDC21708CB8007C66B3 /* KZJSBNativeResponseJsDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A51CFD321708CB8007C66B3 /* KZJSBNativeResponseJsDelegate.h */; };
-		0A51CFDD21708CB8007C66B3 /* KZWKWebViewJSBridgeDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A51CFD421708CB8007C66B3 /* KZWKWebViewJSBridgeDelegate.m */; };
-		0A51CFDE21708CB8007C66B3 /* KZJSBInvokeAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A51CFD521708CB8007C66B3 /* KZJSBInvokeAction.h */; };
-		0A51CFDF21708CB8007C66B3 /* KZJSBInvokeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A51CFD621708CB8007C66B3 /* KZJSBInvokeAction.m */; };
-		0A51CFE021708CB8007C66B3 /* KZWKWebViewJSBridgeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A51CFD721708CB8007C66B3 /* KZWKWebViewJSBridgeDelegate.h */; };
-		0A51CFE121708CB8007C66B3 /* KZWebViewJSBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A51CFD821708CB8007C66B3 /* KZWebViewJSBridge_JS.m */; };
+		0AC09D74218079520017E695 /* KZWKWebViewJSBridgeDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC09D65218079520017E695 /* KZWKWebViewJSBridgeDelegate.m */; };
+		0AC09D75218079520017E695 /* KZWebViewJSBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC09D66218079520017E695 /* KZWebViewJSBridgeBase.m */; };
+		0AC09D76218079520017E695 /* KZWebViewJSBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC09D67218079520017E695 /* KZWebViewJSBridge_JS.m */; };
+		0AC09D77218079520017E695 /* KZJSBInvokeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC09D68218079520017E695 /* KZJSBInvokeAction.m */; };
+		0AC09D78218079520017E695 /* KZWKWebViewJSBridgeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC09D69218079520017E695 /* KZWKWebViewJSBridgeDelegate.h */; };
+		0AC09D79218079520017E695 /* KZJSBNativeResponseJsDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC09D6A218079520017E695 /* KZJSBNativeResponseJsDelegate.h */; };
+		0AC09D7A218079520017E695 /* KZWebViewJSBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC09D6B218079520017E695 /* KZWebViewJSBridgeBase.h */; };
+		0AC09D7B218079520017E695 /* JSBridgeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC09D6D218079520017E695 /* JSBridgeModel.h */; };
+		0AC09D7C218079520017E695 /* JSBridgeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC09D6E218079520017E695 /* JSBridgeModel.m */; };
+		0AC09D7D218079520017E695 /* KZJSBInvokeAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC09D6F218079520017E695 /* KZJSBInvokeAction.h */; };
+		0AC09D7E218079520017E695 /* KZWebViewJSBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC09D70218079520017E695 /* KZWebViewJSBridge_JS.h */; };
+		0AC09D7F218079520017E695 /* KZJSBUserContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC09D72218079520017E695 /* KZJSBUserContentController.m */; };
+		0AC09D80218079520017E695 /* KZJSBUserContentController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC09D73218079520017E695 /* KZJSBUserContentController.h */; };
+		0AC09D822180797A0017E695 /* KZWebViewJsBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC09D812180797A0017E695 /* KZWebViewJsBridge.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A1B278C21709D2D002AE8D1 /* KZWebViewJsBridge.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KZWebViewJsBridge.podspec; sourceTree = SOURCE_ROOT; };
 		0A51CFC521708C5D007C66B3 /* KZWebViewJsBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KZWebViewJsBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A51CFC921708C5D007C66B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A51CFD021708CB8007C66B3 /* KZWebViewJSBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KZWebViewJSBridge_JS.h; path = JSBridge/KZWebViewJSBridge_JS.h; sourceTree = "<group>"; };
-		0A51CFD121708CB8007C66B3 /* KZWebViewJSBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KZWebViewJSBridgeBase.m; path = JSBridge/KZWebViewJSBridgeBase.m; sourceTree = "<group>"; };
-		0A51CFD221708CB8007C66B3 /* KZWebViewJSBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KZWebViewJSBridgeBase.h; path = JSBridge/KZWebViewJSBridgeBase.h; sourceTree = "<group>"; };
-		0A51CFD321708CB8007C66B3 /* KZJSBNativeResponseJsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KZJSBNativeResponseJsDelegate.h; path = JSBridge/KZJSBNativeResponseJsDelegate.h; sourceTree = "<group>"; };
-		0A51CFD421708CB8007C66B3 /* KZWKWebViewJSBridgeDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KZWKWebViewJSBridgeDelegate.m; path = JSBridge/KZWKWebViewJSBridgeDelegate.m; sourceTree = "<group>"; };
-		0A51CFD521708CB8007C66B3 /* KZJSBInvokeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KZJSBInvokeAction.h; path = JSBridge/KZJSBInvokeAction.h; sourceTree = "<group>"; };
-		0A51CFD621708CB8007C66B3 /* KZJSBInvokeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KZJSBInvokeAction.m; path = JSBridge/KZJSBInvokeAction.m; sourceTree = "<group>"; };
-		0A51CFD721708CB8007C66B3 /* KZWKWebViewJSBridgeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KZWKWebViewJSBridgeDelegate.h; path = JSBridge/KZWKWebViewJSBridgeDelegate.h; sourceTree = "<group>"; };
-		0A51CFD821708CB8007C66B3 /* KZWebViewJSBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KZWebViewJSBridge_JS.m; path = JSBridge/KZWebViewJSBridge_JS.m; sourceTree = "<group>"; };
+		0AC09D65218079520017E695 /* KZWKWebViewJSBridgeDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZWKWebViewJSBridgeDelegate.m; sourceTree = "<group>"; };
+		0AC09D66218079520017E695 /* KZWebViewJSBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZWebViewJSBridgeBase.m; sourceTree = "<group>"; };
+		0AC09D67218079520017E695 /* KZWebViewJSBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZWebViewJSBridge_JS.m; sourceTree = "<group>"; };
+		0AC09D68218079520017E695 /* KZJSBInvokeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZJSBInvokeAction.m; sourceTree = "<group>"; };
+		0AC09D69218079520017E695 /* KZWKWebViewJSBridgeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZWKWebViewJSBridgeDelegate.h; sourceTree = "<group>"; };
+		0AC09D6A218079520017E695 /* KZJSBNativeResponseJsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZJSBNativeResponseJsDelegate.h; sourceTree = "<group>"; };
+		0AC09D6B218079520017E695 /* KZWebViewJSBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZWebViewJSBridgeBase.h; sourceTree = "<group>"; };
+		0AC09D6D218079520017E695 /* JSBridgeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBridgeModel.h; sourceTree = "<group>"; };
+		0AC09D6E218079520017E695 /* JSBridgeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBridgeModel.m; sourceTree = "<group>"; };
+		0AC09D6F218079520017E695 /* KZJSBInvokeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZJSBInvokeAction.h; sourceTree = "<group>"; };
+		0AC09D70218079520017E695 /* KZWebViewJSBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZWebViewJSBridge_JS.h; sourceTree = "<group>"; };
+		0AC09D72218079520017E695 /* KZJSBUserContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZJSBUserContentController.m; sourceTree = "<group>"; };
+		0AC09D73218079520017E695 /* KZJSBUserContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZJSBUserContentController.h; sourceTree = "<group>"; };
+		0AC09D812180797A0017E695 /* KZWebViewJsBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZWebViewJsBridge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,18 +75,47 @@
 		0A51CFC721708C5D007C66B3 /* KZWebViewJsBridge */ = {
 			isa = PBXGroup;
 			children = (
-				0A51CFD521708CB8007C66B3 /* KZJSBInvokeAction.h */,
-				0A51CFD621708CB8007C66B3 /* KZJSBInvokeAction.m */,
-				0A51CFD321708CB8007C66B3 /* KZJSBNativeResponseJsDelegate.h */,
-				0A51CFD021708CB8007C66B3 /* KZWebViewJSBridge_JS.h */,
-				0A51CFD821708CB8007C66B3 /* KZWebViewJSBridge_JS.m */,
-				0A51CFD221708CB8007C66B3 /* KZWebViewJSBridgeBase.h */,
-				0A51CFD121708CB8007C66B3 /* KZWebViewJSBridgeBase.m */,
-				0A51CFD721708CB8007C66B3 /* KZWKWebViewJSBridgeDelegate.h */,
-				0A51CFD421708CB8007C66B3 /* KZWKWebViewJSBridgeDelegate.m */,
+				0AC09D812180797A0017E695 /* KZWebViewJsBridge.h */,
+				0AC09D64218079520017E695 /* JSBridge */,
 				0A51CFC921708C5D007C66B3 /* Info.plist */,
 			);
 			path = KZWebViewJsBridge;
+			sourceTree = "<group>";
+		};
+		0AC09D64218079520017E695 /* JSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				0AC09D65218079520017E695 /* KZWKWebViewJSBridgeDelegate.m */,
+				0AC09D66218079520017E695 /* KZWebViewJSBridgeBase.m */,
+				0AC09D67218079520017E695 /* KZWebViewJSBridge_JS.m */,
+				0AC09D68218079520017E695 /* KZJSBInvokeAction.m */,
+				0AC09D69218079520017E695 /* KZWKWebViewJSBridgeDelegate.h */,
+				0AC09D6A218079520017E695 /* KZJSBNativeResponseJsDelegate.h */,
+				0AC09D6B218079520017E695 /* KZWebViewJSBridgeBase.h */,
+				0AC09D6C218079520017E695 /* model */,
+				0AC09D6F218079520017E695 /* KZJSBInvokeAction.h */,
+				0AC09D70218079520017E695 /* KZWebViewJSBridge_JS.h */,
+				0AC09D71218079520017E695 /* jsbridge2 */,
+			);
+			path = JSBridge;
+			sourceTree = "<group>";
+		};
+		0AC09D6C218079520017E695 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0AC09D6D218079520017E695 /* JSBridgeModel.h */,
+				0AC09D6E218079520017E695 /* JSBridgeModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0AC09D71218079520017E695 /* jsbridge2 */ = {
+			isa = PBXGroup;
+			children = (
+				0AC09D72218079520017E695 /* KZJSBUserContentController.m */,
+				0AC09D73218079520017E695 /* KZJSBUserContentController.h */,
+			);
+			path = jsbridge2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,11 +125,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A51CFDB21708CB8007C66B3 /* KZWebViewJSBridgeBase.h in Headers */,
-				0A51CFDC21708CB8007C66B3 /* KZJSBNativeResponseJsDelegate.h in Headers */,
-				0A51CFD921708CB8007C66B3 /* KZWebViewJSBridge_JS.h in Headers */,
-				0A51CFE021708CB8007C66B3 /* KZWKWebViewJSBridgeDelegate.h in Headers */,
-				0A51CFDE21708CB8007C66B3 /* KZJSBInvokeAction.h in Headers */,
+				0AC09D80218079520017E695 /* KZJSBUserContentController.h in Headers */,
+				0AC09D822180797A0017E695 /* KZWebViewJsBridge.h in Headers */,
+				0AC09D7A218079520017E695 /* KZWebViewJSBridgeBase.h in Headers */,
+				0AC09D7D218079520017E695 /* KZJSBInvokeAction.h in Headers */,
+				0AC09D7B218079520017E695 /* JSBridgeModel.h in Headers */,
+				0AC09D7E218079520017E695 /* KZWebViewJSBridge_JS.h in Headers */,
+				0AC09D78218079520017E695 /* KZWKWebViewJSBridgeDelegate.h in Headers */,
+				0AC09D79218079520017E695 /* KZJSBNativeResponseJsDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,10 +204,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A51CFDF21708CB8007C66B3 /* KZJSBInvokeAction.m in Sources */,
-				0A51CFE121708CB8007C66B3 /* KZWebViewJSBridge_JS.m in Sources */,
-				0A51CFDA21708CB8007C66B3 /* KZWebViewJSBridgeBase.m in Sources */,
-				0A51CFDD21708CB8007C66B3 /* KZWKWebViewJSBridgeDelegate.m in Sources */,
+				0AC09D7C218079520017E695 /* JSBridgeModel.m in Sources */,
+				0AC09D76218079520017E695 /* KZWebViewJSBridge_JS.m in Sources */,
+				0AC09D77218079520017E695 /* KZJSBInvokeAction.m in Sources */,
+				0AC09D75218079520017E695 /* KZWebViewJSBridgeBase.m in Sources */,
+				0AC09D74218079520017E695 /* KZWKWebViewJSBridgeDelegate.m in Sources */,
+				0AC09D7F218079520017E695 /* KZJSBUserContentController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

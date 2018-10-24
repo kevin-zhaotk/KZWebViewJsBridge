@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "KZWebViewJsBridge"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "A short description of KZWebViewJsBridge."
 
 
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source_files  = "KZWebViewJsBridge", "KZWebViewJsBridge/**/*.{h,m}"
+  s.source_files  = "KZWebViewJsBridge", "KZWebViewJsBridge/**/*.{h,m}", "KZWebViewJsBridge/**/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   s.ios.deployment_target = '8.0'
